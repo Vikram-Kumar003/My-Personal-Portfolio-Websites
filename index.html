@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a5f7b4f6b5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+   
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo5.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> Full Stack Developer </p>
+                <h1>Hi I'm <span>Vikram</span> Kumar <br> From Jharkhand <span>Ranchi </span></h1>
+            </div>
+        </div>
+    </div>
+    
+  <!-- -----------------About Section ----------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user2.png">
+                </div>
+                  <div class="about-col-2">
+                     <h1 class="sub-title">About Me</h1>
+                     <p> My name is Vikram Kumar, and I'm a student at Parul University working for an MCA with a focus in Full Stack Web Development. My passion is creating intuitive web solutions that seamlessly combine style and functionality. With knowledge of both front-end and back-end technologies, I'm dedicated to developing user-centric web experiences that push the limits of what's possible on the web.  </p> <br>
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('Skills')"> <b>Skills </b></p>
+                        <p class="tab-links" onclick="opentab('experience')"> <b>Experience </b></p>
+                        <p class="tab-links" onclick="opentab('education')"> <b>Education </b></p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <i class="fa-brands fa-html5"></i>
+                            <li><span>HTML</span> - HTML is the backbone of the web, giving life to websites with its structure and content.</li>
+                            <br>
+
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <li><span>CSS</span> - CSS is like a magic wand for websites, transforming their appearance with style and design.</li>
+                            <br>
+
+                            <i class="fa-brands fa-js"></i>
+                            <li><span>JAVASCRIPT</span> - JavaScript is the wizard behind the scenes, adding interactivity and functionality to websites with           its coding prowess.</li>
+                            <br>
+
+                            <i class="fa-brands fa-java"></i>
+                            <li><span>JAVA</span> - Java is like a cup of coffee that fuels the web with its versatility and reliability☕.</li>
+                            <br>
+
+                            <i class="fa-brands fa-python"></i>
+                            <li><span>PYTHON</span> - Python is like a friendly snake that slithers through code, making programming fun and easy! </li>
+                            <br>
+
+                            <i class="fa-brands fa-php"></i>
+                            <li><span>PHP</span> - PHP is like a Swiss Army knife for web development, allowing you to build dynamic and feature-rich websites with ease.</li>
+                            
+
+                        </ul>
+                     </div>
+
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            
+                            <li><span> <b>Intern at Web Designer from Buck Softech Private Limited, Ranchi.</b></span><br>I had the opportunity to learn and use my web design skills while
+                                working at BSPL Ranchi, Jharkhand. Working under the guidance of
+                                experienced professionals, I gained valuable insights into the web
+                                design industry and honed my abilities in creating visually appealing and
+                                user-friendly websites.</li>
+
+
+                            <li><span> <b>Intern at Dot Technology With SQL Server from Zivaan Marketplace(P) Ltd, Ranchi.</b></span><br>I've had hands-on experience with .NET and SQL Server during my
+                                internship, developing a web application. I've developed a robust set of
+                                features, integrated databases, and implemented safe user
+                                authentications. It's been an incredible learning experience for me,
+                                strengthening my abilities in the back end.</li>
+
+
+                            <li><span> <b> Intern at Full Stack Web Developer from Bharat Intern.</b> </span> <br>I had the opportunity to learn and gain experience in different aspects
+                                of web development during my internship. I've learned to create a
+                                registration form using HTML, CSS, Node.js, and MongoDB, while also
+                                learning how to set up blog sites on the fly. My skills in the development
+                                and management of full-stack websites and databases have been
+                                greatly enhanced by this experience.
+                                    </li>
+
+                        </ul>
+                     </div>
+
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            
+                            <li><span> <b>Parul University (Persuing) </b></span> <br>Master of Computer Applications(MCA) Specialization: Full Stack Web Development.</li>
+                                
+                            <li><span> <b>Ranchi University (2019-2022)</b> </span><br>Bachelor of Computer Applications (BCA) Ranchi University India , Percentage: 74.43%</li>
+                               
+                            
+                        </ul>
+                     </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- --------------------------------Services -------------------------------- -->
+   
+
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p> As a web developer, I code dynamic and responsive websites. I blend creativity with technical expertise, ensuring user-friendly and visually appealing digital experiences. Explore my portfolio for diverse web development projects. </p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>Android Developer</h2>
+                    <p>As an Android developer, I craft innovative mobile solutions. Utilizing Android's capabilities, I prioritize seamless functionality and user-friendly experiences. Stay tuned for my diverse portfolio showcasing creative and impactful Android projects.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web Design</h2>
+                    <p>As a web designer, I shape visually stunning and user-centric websites. With a keen eye for design principles, I create aesthetically pleasing and intuitive digital experiences. Explore my portfolio for diverse and creative web designs.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java Developer</h2>
+                    <p>As a Java developer, I engineer dynamic software solutions. Harnessing Java's power, I prioritize functionality and aesthetics. Stay tuned for a diverse portfolio showcasing innovative Java projects.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python Developer</h2>
+                    <p>As a Python developer, I craft dynamic, user-friendly software. With expertise in Python's versatility, I create functional and visually appealing applications. Explore my portfolio for innovative Python-powered projects.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Dot Net Developer</h2>
+                    <p>As a .NET developer, I create robust, user-friendly software solutions. Using the .NET framework, I blend functionality with aesthetics. Stay tuned for my diverse portfolio showcasing impactful .NET projects.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- ------------------------------------Portfolio--------------------------------------------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-5.jpg">
+
+                    <div class="layer">
+                        <h3>Blog Websites</h3>
+                        <p>Developed a feature-rich blogging platform using HTML, CSS, and JavaScript.
+                            Implemented user authentication, content management, and comment sections.
+                            Designed an intuitive and responsive layout to enhance the reading experience.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    
+                </div>
+
+                <div class="work">
+                    <img src="images/work-6.jpg">
+
+                    <div class="layer">
+                        <h3>Fashion Store</h3>
+                        <p>Created a replica of a popular fashion store website using HTML, CSS, and JavaScript.
+                            Implemented responsive design to ensure a seamless shopping experience on various devices.
+                            Integrated features such as product catalogs, user accounts, and secure checkout processes.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+ 
+                </div>
+
+                <div class="work">
+                    <img src="images/work-8.jpg">
+
+                    <div class="layer">
+                        <h3>Gym Websites</h3>
+                        <p>Designed and developed a dynamic and responsive website for a fitness center using HTML, CSS, and JavaScript.
+                            Integrated a user-friendly interface with features like class schedules, trainer profiles, and membership registration.
+                            Optimized website performance for various devices to enhance the user experience.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                
+                </div>
+            </div>
+
+            <a href="#" class="btn"> See More</a>
+        </div>
+    </div>
+
+
+<!-- ------------------------------------------------------------contact-------------------------------------------------------- -->
+
+
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+           <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p> <i class="fa-solid fa-envelope"></i>vikramsharma8651005689@gmail.com</p>
+            <p> <i class="fa-solid fa-phone"></i>8651005689</p>
+            <div class="social-icons">
+               
+
+                <a id="linkedin-icon" href="#"><i class="fa-brands fa-linkedin"></i></a>
+                
+                <a id="facebook-icon" href="#"><i class="fa-brands fa-facebook"></i></a>
+
+                <a id="instagram-icon" href="#"><i class="fa-brands fa-instagram"></i></a>
+
+                <a id="github-icon" href="#"><i class="fa-brands fa-github"></i></a>
+                
+
+
+            </div>
+
+            <a href="images/Vikram's Resume.pdf" download class="btn btn2">Download CV</a>
+
+           </div>
+           <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+        </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ Vikram Sharma <i class="fa-solid fa-heart"></i> from Ranchi Jharkhand  </p>
+        </div>
+        </div>
+        
+
+
+
+
+
+
+
+
+
+   <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-links");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-links");
+        document.getElementById(tabname).classList.add("active-tab");
+    
+    }
+
+   </script>
+
+
+<script>
+    
+  var sidemnu = document.getElementById("sidemenu");
+
+  function openmenu(){
+    sidemnu.style.right = "0";
+  }
+
+  function closemenu(){
+    sidemnu.style.right= "-200px";
+  }
+
+
+</script>
+
+<script>
+
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxS-D98_VuvX1BEhuqJ3Ozifddzr4c8fDaAbwecdARCxf2Nnz8Wq3GOfNP0T6Go1pmaJQ/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {msg.innerHTML="Message Sent Successfully"
+      setTimeout(function(){
+        msg.innerHTML=""
+      },4000)
+      form.reset()
+    })
+      .catch(error => console.error('Error!', error.message))
+  })
+
+
+
+    
+
+
+//  -----------------------------for linkedin---------------------------
+
+    
+    const linkedinIcon = document.getElementById("linkedin-icon");
+
+    linkedinIcon.addEventListener("click", function (event) {
+        event.preventDefault();
+        // Replace this URL with your LinkedIn profile URL
+        const linkedinProfileURL = "https://www.linkedin.com/in/vikram-kumar-b594b5242/";
+        window.open(linkedinProfileURL, "_blank");
+    });
+
+
+// --------------------------for facebook url -----------------
+
+document.addEventListener("DOMContentLoaded", function () {
+    const facebookIcon = document.getElementById("facebook-icon");
+
+    facebookIcon.addEventListener("click", function (event) {
+        event.preventDefault();
+        // Replace this URL with your Facebook profile URL
+        const facebookProfileURL = "https://www.facebook.com/profile.php?id=100010073320136";
+        window.open(facebookProfileURL, "_blank");
+    });
+});
+
+
+// ------------------------for instagram url link redict-------------------
+
+document.addEventListener("DOMContentLoaded", function () {
+    const instagramIcon = document.getElementById("instagram-icon");
+
+    instagramIcon.addEventListener("click", function (event) {
+        event.preventDefault();
+        // Replace this URL with your Instagram profile URL
+        const instagramProfileURL = "https://www.instagram.com/mr__vikram_sharma/";
+        window.open(instagramProfileURL, "_blank");
+    });
+});
+
+
+
+// ----------------------for github url -----------------------
+
+document.addEventListener("DOMContentLoaded", function () {
+    const githubIcon = document.getElementById("github-icon");
+
+    githubIcon.addEventListener("click", function (event) {
+        event.preventDefault();
+        // Replace this URL with your GitHub profile URL
+        const githubProfileURL = "https://github.com/Vikram-Kumar003";
+        window.open(githubProfileURL, "_blank");
+    });
+});
+
+
+
+
+  </script>
+
+
+
+
+
+
+
+
+
+<div class="markq">
+   
+    <marquee width="100%" behavior="alternate" bgcolor="#262626">  
+       <p>Thank You So Much For Visiting This Page👍  </p>
+        </marquee>
+</div>
+
+
+
+
+</body>
+</html>
